@@ -126,6 +126,8 @@
 
 `$ shutdown`
 
+`$ halt`
+
 **Reboot machine**
 
 `$ reboot`
@@ -134,74 +136,100 @@
 
 `$ passwd`
 
-****
+**Show SO, machine name, version, kernel version, date and architecture**
 
-`$ `
+`$ uname -a`
 
-****
+**Show process information**
 
-`$ `
+`$ top`
 
-****
+**List process information**
 
-`$ `
+`$ ps aux`
 
-****
+`$ ps aux | grep process-name`
 
-`$ `
+**Kills a process by name**
 
-****
+`$ killall -9 process-name`
 
-`$ `
+**Changes the mouse pointer in a process killer**
 
-****
+`$ xkill`
 
-`$ `
+**Shows machine architecture**
 
-****
+`$ arch`
 
-`$ `
+**Add user to OS**
 
-****
+`$ adduser dummy`
 
-`$ `
+**Remove user from OS**
 
-****
+`$ userdel dummy`
 
-`$ `
+**Remove user and home directory contents**
 
-****
+`$ userdel -r dummy`
 
-`$ `
+**Displays an image (requires ImageMagick)**
 
-****
+`$ display image.jpg`
 
-`$ `
+**Convert image format (requires ImageMagick)**
 
-****
+`$ converte image.jpg image.png`
 
-`$ `
+**Change permissions**
 
-****
+`$ chmod 666 ~/directory`
 
-`$ `
+**Mounts a device**
 
-****
+`$ mount /mnt/cdrom`
 
-`$ `
+**Unmounts a device**
 
-****
+`$ unmount /mnt/cdrom`
 
-`$ `
+**Show date and hour**
 
-****
+`$ date`
 
-`$ `
+**Starts a process in background and leaves terminal ready to do another work**
 
-****
+`$ mvn package &`
 
-`$ `
+**Show calender**
 
-****
+`$ cal`
 
-`$ `
+**Clear screen**
+
+`$ clear`
+
+**Show RAM information**
+
+`$ free`
+
+
+**Measure program start time**
+
+`$ time subl`
+
+
+**List file attributes**
+
+`$ lsattr file.txt`
+
+
+**Find executable path**
+
+`$ whereis exec-name`
+
+
+**Download file**
+
+`$ wget -c http://www.xpto.com/file.txt`
