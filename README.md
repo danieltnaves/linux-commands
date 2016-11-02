@@ -164,7 +164,7 @@
 
 **Kills a process greping strings**
 
-`$ pkill -f jboss`
+`$ pkill -9 -f jboss`
 
 **Changes the mouse pointer in a process killer**
 
