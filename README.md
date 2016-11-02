@@ -150,6 +150,14 @@
 
 `$ ps aux | grep process-name`
 
+**Find PID number**
+
+`$ pidof firefox`
+
+**Find out process name using PID number**
+
+`$ ps -p 2523 -o comm=`
+
 **Kills a process by name**
 
 `$ killall -9 process-name`
