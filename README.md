@@ -162,6 +162,10 @@
 
 `$ killall -9 process-name`
 
+**Kills a process greping strings**
+
+`$ pkill -f jboss`
+
 **Changes the mouse pointer in a process killer**
 
 `$ xkill`
