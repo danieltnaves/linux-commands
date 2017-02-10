@@ -247,4 +247,5 @@
 `$ wget -c http://www.xpto.com/file.txt`
 
 **Free memory (root)**
+
 `$ free -m && sync && echo 3 > /proc/sys/vm/drop_caches && free -m`
