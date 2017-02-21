@@ -252,4 +252,4 @@
 
 **Copy files between servers**
 
-scp transfer.txt <USER>@<IP>:/<DESTINATION_PATH>
+scp transfer.txt USER@IP:/DESTINATION_PATH
