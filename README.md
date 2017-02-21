@@ -251,4 +251,5 @@
 `$ free -m && sync && echo 3 > /proc/sys/vm/drop_caches && free -m`
 
 **Copy files between servers**
+
 scp transfer.txt <USER>@<IP>:/<DESTINATION_PATH>
